@@ -72,42 +72,43 @@
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="p3T-Ei-arL">
                                         <rect key="frame" x="0.0" y="267.33333333333331" width="350" height="217.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpz-WD-Mec">
-                                                <rect key="frame" x="0.0" y="58.666666666666686" width="150" height="100"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpz-WD-Mec">
+                                                <rect key="frame" x="0.0" y="8.6666666666666856" width="150" height="200"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="csE-1I-dH8"/>
+                                                    <constraint firstAttribute="height" constant="200" id="WTn-dV-XEw"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="king"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw7-t6-aMw">
-                                                <rect key="frame" x="200" y="58.666666666666686" width="150" height="100"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw7-t6-aMw">
+                                                <rect key="frame" x="200" y="8.6666666666666856" width="150" height="200"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="oBb-Nv-4m3"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="tCK-KF-nlq"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="knight"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Vbb-Yw-qsE">
                                         <rect key="frame" x="0.0" y="534.66666666666663" width="350" height="217.33333333333337"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yo5-tX-0oh">
-                                                <rect key="frame" x="0.0" y="58.666666666666742" width="150" height="100"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yo5-tX-0oh">
+                                                <rect key="frame" x="0.0" y="8.6666666666667425" width="150" height="200"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Qiy-oM-kgk"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Zja-da-pvP"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="pawn"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teV-fd-S6u">
-                                                <rect key="frame" x="200" y="58.666666666666742" width="150" height="100"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teV-fd-S6u">
+                                                <rect key="frame" x="200" y="8.6666666666667425" width="150" height="200"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Mbg-3g-cns"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Ape-t8-w1C"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="queen"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -135,6 +136,10 @@
     <color key="tintColor" red="0.89019608500000003" green="0.37647059560000001" blue="0.59215688710000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="jueguilloLogo-removebg-preview" width="521" height="479"/>
+        <image name="king" width="1480" height="1479"/>
+        <image name="knight" width="1480" height="1480"/>
+        <image name="pawn" width="4676" height="4676"/>
+        <image name="queen" width="1480" height="1479"/>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
