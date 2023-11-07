@@ -9,4 +9,6 @@ Esta aplicacion consiste en un pequeño juego de memoria en el que el objetivo e
 - Pantalla de puntuaciones *Se guarda en PostMan*
 ___
 ## Captura de pantalla 
-![Captura de Pantalla 1](.png)
+![Captura de Pantalla 1](MainScreen.png)
+___
+
